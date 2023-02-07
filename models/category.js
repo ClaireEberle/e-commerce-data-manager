@@ -7,13 +7,13 @@ class Category extends Model {}
 Category.init(
   {
     // define columns
-    id: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      primaryKey: true,
-      //use auto increment
-      //set as primary key
-    },
+    // id: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false,
+    //   primaryKey: true,
+    //   //use auto increment
+    //   //set as primary key
+    // },
     category_name: {
       type: DataTypes.STRING,
       allowNull: false,
