@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const { Product } = require('../models');
 
 const productData = [
