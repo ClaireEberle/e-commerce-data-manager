@@ -6,31 +6,28 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-    // define columns
+    // product/tag junciton table, uncomment once product and tag models are complete
     // id: {
-    //     type: DataTypes.INTEGER,
-    //     allowNull: false,
-    //     primaryKey: true
-    //     //use auto increment
-    //     //set as primary key
-    //   },
-      product_id: {
-        type: DataTypes.INTEGER,
-        references:{
-          //references the product model;s id
-        model:'Category',
-        key:'id'
-        }
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false,
+    //   primaryKey: true,
+    //   autoIncrement: true,
+    // },
+    product_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'product',
+        key: 'id',
       },
-      tag_id: {
-          type: DataTypes.INTEGER,
-          //references the tag model's id
-          references:{
-            model:'Tag',
-            key:'id'
-          }
+    },
+    tag_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'tag',
+        key: 'id',
+      },
+    },
   },
-},
   {
     sequelize,
     timestamps: false,

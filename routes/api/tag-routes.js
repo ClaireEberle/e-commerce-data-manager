@@ -6,13 +6,14 @@ const { Tag, Product, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   // find all tags
   Tag.findAll().then(tagData=>{
-    res.json(tagData)
-  }).catch(err=>{
+    res.json(tagData);
+  }).catch((err)=>{
     console.log(err);
     res.status(500).json({
       msg:"an error occured",
-    })
-  })
+      err:err,
+    });
+  });
   // be sure to include its associated Product data
 });
 

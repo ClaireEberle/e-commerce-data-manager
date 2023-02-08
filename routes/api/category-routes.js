@@ -57,6 +57,13 @@ router.post("/", (req, res) => {
   Category.create({
     category_name:req.body.category_name,
 
+  }).then(catData=>{
+    res.status(201).json(catData)
+  }).catch(err=>{
+    res.status(500).json({
+      msg:"an error occurred",
+      err:err
+    })
   })
 });
 
