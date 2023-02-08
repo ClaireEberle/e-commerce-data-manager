@@ -1,13 +1,12 @@
 # e-commerce-data-manager
 
 
-
-
+https://user-images.githubusercontent.com/116858582/217445585-caf4e7ee-4a91-42a6-95db-e933ef9fa31a.mov
 
 
 ## Description
     
-**This project was created to function at an online commerce data manager. By using this data manager a user may link multiple tags to multiple products using a many to many association. Products may belong to one category, and searching a category will show you all the products available within it.
+This project was created to function at an online commerce data manager. By using this data manager a user may link multiple tags to multiple products using a many to many association. Products may belong to one category, and searching a category will show you all the products available within it.
 
 ## License
     
