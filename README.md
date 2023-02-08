@@ -7,7 +7,7 @@
 
 ## Description
     
-**This project was created using JavaScript and node.js in order for the user to create README files easily by following a series of prompts in the terminal.
+**This project was created to function at an online commerce data manager. By using this data manager a user may link multiple tags to multiple products using a many to many association. Products may belong to one category, and searching a category will show you all the products available within it.
 
 ## License
     
@@ -24,15 +24,15 @@
     
 ## Installation
     
- User must install npm package inquirer@8.2.4
+ User must install the npm package which includes dotenv, express, mysql2, and sequelize.
     
  ## Usage
     
-**To use this project, the user may download the index.js file, and install node.js, as well as the npm package inquirer@8.2.4. Then the user can open the terminal command line and enter 'node index.js'. from there the user will answer a series of prompts in order to generate a proffesional README file in the Output folder.
+To use this project the user may install the given programs, and use the routes provided to see all data in products, tags, and categories. Using the routes created the user may delete, update or add data to any of the tables.
 
 ## Contribution-Guidelines
 
-undefined
+N/A
 
  ## Credits
     
